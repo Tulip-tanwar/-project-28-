@@ -1,0 +1,18 @@
+class Tree {
+    constractor(bodyA,bodyB);{
+        var options={
+            bodyA:bodyB,
+            bodyB:bodyA,
+            stiffness:0.04,
+            length:10
+        }
+
+        this.tree = Constrain.create(option);
+        World.add(world, this.tree);
+    }
+
+    display(){
+        var pointA=this.stone.bodyA.position;
+       strokeWeight(4);
+       pointA.x,pointA.y,pointB.x,pointB.y;
+    }
